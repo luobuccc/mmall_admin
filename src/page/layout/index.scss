@@ -1,0 +1,36 @@
+$bg-color: #aaa;
+li {
+    list-style: none;
+}
+
+.navbar-default {
+    border:0 solid #000;
+    margin-bottom: 0; 
+}
+
+.navbar-default .sidebar{
+    margin-bottom: 0; 
+    z-index: 1;
+    position: fixed;
+    width: 250px;
+    top: -1px;
+    bottom: 0;
+    background: #2b2e33;
+    border: none;
+    overflow-y: auto;
+}
+
+.btn-logout {
+    cursor: pointer;
+}
+
+.page-header {
+    margin: 20px 0 20px;
+    font-size: 28px;
+    color: #666;
+}
+
+.page-header-right {
+    float: right;
+    margin-top: -63px;
+}
